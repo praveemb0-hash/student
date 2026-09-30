@@ -1,0 +1,6 @@
+Enrollment Name,Student,Course,Instructor,Enrollment Date,Enrollment Status,Fees Paid,Total Amount,Comments
+ENR-001,Aarav Kumar,Python Programming,Instructor A,2026-09-01,Approved,TRUE,15000,Sample approved enrollment
+ENR-002,Ananya Devi,English Communication,Instructor B,2026-09-03,Requested,FALSE,8000,Awaiting approval
+ENR-003,Kavin Raj,Digital Skills,Instructor C,2026-09-05,Rejected,FALSE,6000,Sample rejected enrollment
+ENR-004,Meena Priya,Data Analytics,Instructor A,2026-09-07,Approved,TRUE,22000,Sample paid enrollment
+ENR-005,Rahul S,Tamil Communication,Instructor B,2026-09-10,Requested,TRUE,7000,Sample pending approval

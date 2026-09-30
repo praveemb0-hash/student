@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+  <label>Enrollment</label>
+  <pluralLabel>Enrollments</pluralLabel>
+  <nameField><label>Enrollment Name</label><type>Text</type></nameField>
+  <deploymentStatus>Deployed</deploymentStatus>
+  <sharingModel>Private</sharingModel>
+  <fields>
+    <fullName>Student__c</fullName>
+    <label>Student</label>
+    <type>Lookup</type>
+    <referenceTo>Student__c</referenceTo>
+    <relationshipLabel>Related Student</relationshipLabel>
+    <relationshipName>Student</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+  </fields>
+  <fields>
+    <fullName>Course__c</fullName>
+    <label>Course</label>
+    <type>Lookup</type>
+    <referenceTo>Course__c</referenceTo>
+    <relationshipLabel>Related Course</relationshipLabel>
+    <relationshipName>Course</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+  </fields>
+  <fields>
+    <fullName>Instructor__c</fullName>
+    <label>Instructor</label>
+    <type>Lookup</type>
+    <referenceTo>Instructor__c</referenceTo>
+    <relationshipLabel>Related Instructor</relationshipLabel>
+    <relationshipName>Instructor</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+  </fields>
+  <fields>
+    <fullName>Enrollment_Date__c</fullName>
+    <label>Enrollment Date</label>
+    <type>Date</type>
+  </fields>
+  <fields>
+    <fullName>Enrollment_Status__c</fullName>
+    <label>Enrollment Status</label>
+    <type>Picklist</type>
+    <valueSet>
+      <valueSetDefinition>
+        <value>
+          <fullName>Requested</fullName>
+          <default>true</default>
+          <label>Requested</label>
+        </value>
+        <value>
+          <fullName>Approved</fullName>
+          <default>false</default>
+          <label>Approved</label>
+        </value>
+        <value>
+          <fullName>Rejected</fullName>
+          <default>false</default>
+          <label>Rejected</label>
+        </value>
+        <value>
+          <fullName>Completed</fullName>
+          <default>false</default>
+          <label>Completed</label>
+        </value>
+      </valueSetDefinition>
+    </valueSet>
+  </fields>
+  <fields>
+    <fullName>Fees_Paid__c</fullName>
+    <label>Fees Paid</label>
+    <type>Checkbox</type>
+  </fields>
+  <fields>
+    <fullName>Total_Amount__c</fullName>
+    <label>Total Amount</label>
+    <type>Currency</type>
+    <precision>16</precision>
+    <scale>2</scale>
+  </fields>
+  <fields>
+    <fullName>Comments__c</fullName>
+    <label>Comments</label>
+    <type>LongTextArea</type>
+    <length>1000</length>
+  </fields>
+</CustomObject>

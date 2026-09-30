@@ -1,0 +1,11 @@
+{
+  "name": "secms-salesforce",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Student Enrollment & Course Management System - Salesforce DX project",
+  "scripts": {
+    "validate": "sf project deploy preview --source-dir force-app",
+    "deploy": "sf project deploy start --source-dir force-app",
+    "open": "sf org open"
+  }
+}

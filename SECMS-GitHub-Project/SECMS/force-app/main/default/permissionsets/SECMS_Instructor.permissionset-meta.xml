@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+  <label>SECMS Instructor</label>
+  <objectPermissions><object>Student__c</object><allowCreate>false</allowCreate><allowDelete>false</allowDelete><allowEdit>false</allowEdit><allowRead>true</allowRead><viewAllRecords>false</viewAllRecords><modifyAllRecords>false</modifyAllRecords></objectPermissions>
+  <objectPermissions><object>Course__c</object><allowCreate>false</allowCreate><allowDelete>false</allowDelete><allowEdit>false</allowEdit><allowRead>true</allowRead><viewAllRecords>false</viewAllRecords><modifyAllRecords>false</modifyAllRecords></objectPermissions>
+  <objectPermissions><object>Instructor__c</object><allowCreate>false</allowCreate><allowDelete>false</allowDelete><allowEdit>false</allowEdit><allowRead>true</allowRead><viewAllRecords>false</viewAllRecords><modifyAllRecords>false</modifyAllRecords></objectPermissions>
+  <objectPermissions><object>Enrollment__c</object><allowCreate>false</allowCreate><allowDelete>false</allowDelete><allowEdit>false</allowEdit><allowRead>true</allowRead><viewAllRecords>false</viewAllRecords><modifyAllRecords>false</modifyAllRecords></objectPermissions>
+</PermissionSet>
